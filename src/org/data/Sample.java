@@ -7,6 +7,13 @@ public class Sample {
 		int c = a + b;
 		System.out.println("C = " + c);
 	}
+	
+	public void sub(int n1 , int n2) {
+		
+		int val;
+		val=n1-n2;
+		System.out.println("value :"+val);
+	}
 
 	public static void main(String[] args) {
 
