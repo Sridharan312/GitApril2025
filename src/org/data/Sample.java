@@ -17,7 +17,11 @@ public class Sample {
 
 	public static void main(String[] args) {
 
-		int a = 100;
+		int a = 100 ;
 		System.out.println("Value of a : " + a);
+		Sample s = new Sample();
+		s.addition(20, 30);
+		s.sub(20, 10);
+	
 	}
 }
